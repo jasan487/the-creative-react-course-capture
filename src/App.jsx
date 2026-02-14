@@ -1,13 +1,15 @@
+//Global Style
 //Import Pages
-
+import GlobalStyle from "./components/GlobalStyle";
 import AboutUs from "./pages/AboutUs";
 
 const App = () => {
-  return (
-    <div className="App">
-      <AboutUs/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <GlobalStyle /> 
+            <AboutUs />
+        </div>
+    );
 };
 
 export default App;
